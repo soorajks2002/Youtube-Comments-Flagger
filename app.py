@@ -20,7 +20,7 @@ def load_models():
 
 
 tokenizer, model = load_models()
-api_key = "AIzaSyADHkcRKOWROU5HF4T3C_cC54OPfeoqdSE"
+api_key = "your api key"
 service = build("youtube", "v3", developerKey=api_key)
 
 
